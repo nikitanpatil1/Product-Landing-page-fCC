@@ -1,0 +1,85 @@
+:root{
+    --clr-yellow50:#fefce8;
+    --clr-yellow100:#fef9c3;
+    --clr-yellow200:#fef08a;
+    --clr-yellow300:#fde047;
+    --clr-yellow400:#facc15;
+    --clr-yellow500:#eab308;
+    --clr-yellow600:#ca8a04;
+    --clr-yellow700:#a16207;
+    --clr-yellow800:#854d0e;
+    --clr-yellow900:#713f12;
+    --clr-yellow950:#422006;
+
+    /* sizes */
+
+    --size-xxs:0.5rem;
+    --size-xs:0.75rem;
+    --size-sm:0.875rem;
+    --size-base:1rem;
+    --size-lg:1.125rem;
+    --size-xl:1.25rem;
+    --size-2xl:1.5rem;
+    --size-3xl:1.875rem;
+    --size-4xl:2.25rem;
+    --size-5xl:3rem;
+    --size-6xl:3.75rem;
+    --size-7xl:4.5rem;
+    --size-8xl:6rem;
+    --size-9xl:8rem;
+    --size-10xl:10rem;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gambarino', serif;;
+    background-color: var(--clr-yellow800);
+    color: var(--clr-yellow950);
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+a{
+    
+    text-decoration: none;
+    transition: all 0.3s;
+    color: var( --clr-yellow300);
+    
+}
+
+a:hover{
+    font-weight: 800;
+    color: var( --clr-yellow50);
+}
+
+strong{
+    color: var(--clr-yellow900);
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var( --clr-yellow500);
+    outline: 1px solid var( --clr-yellow500);
+  }

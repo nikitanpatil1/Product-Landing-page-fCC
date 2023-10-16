@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+</head>
+<body>
+    <header id="header" class="container">
+        <img src="./images/logo_img.png" alt="logo_img" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a  class="nav-link" href="#features">Features</a></li>
+                <li><a  class="nav-link" href="#how-it-works">How it works</a></li>
+                <li><a  class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero container">
+        <h1 class="hero__title">Handcrafted, Home-made <span>Masterpieces</span> </h1>
+        <form action="#" id="form" class="hero__form">
+            <input name="email" id="email" type="email" class="form__email" placeholder="Enter your Email-id" autocomplete="off" required>
+            <input id="submit" class="btn" type="submit" value="Get Started">
+        </form>
+    </section>
+
+    <section id="features" class="features container section">
+        <h3 class="feature__title">Features</h3>
+        <div class="feature__content">
+            <div class="feature__box">
+                <div class="feature__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                      </svg>
+                      
+                </div>
+                <h4 class="feature__box-title">Premium Materials</h4>
+                <p class="feature__description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="feature__box">
+                <div class="feature__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                      </svg>
+                      
+                </div>
+                <h4 class="feature__box-title">Fast Shipping</h4>
+                <p class="feature__description">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="feature__box">
+                <div class="feature__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
+                    </svg>
+                </div>
+                <h4 class="feature__box-title">Quality Assurance</h3> 
+                <p class="feature__description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works container section">
+        <div class="how-it-works__left-div">
+            <h4 class="how-it-works__title">How it works</h4>
+            <p class="how-it-works__description">Here is the small video to guide you through the working of the instrument if you are using it for first time. This is not a tutorial video but a video showing the real time working of the instrument.</p>
+        </div>
+        <div class="how-it-works__video">
+            <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=8zQBt_J4slf7BEkj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+
+        <!-- width="470" height="280" -->
+    </section>
+    
+    
+    <section id="pricing" class="pricing container section">
+        <h3 class="pricing__title">Pricing</h3>
+        <div class="pricing__content">
+
+            <div class="pricing__box">
+                <h4 class="pricing__box-title">TENOR TROMBONE</h4>
+                <p class="pricing__price">$600</p>
+                <p class="pricing__description">Lorem make sure you recieve your trombone as soon as we have finished making it. We also provide free returns.</p>
+                <a class="pricing__btn">Select</a>
+            </div>
+            <div class="pricing__box">
+                <h4 class="pricing__box-title">BASS TROMBONE</h4>
+                <p class="pricing__price">$900</p>
+                <p class="pricing__description">Lorem make sure you recieve your trombone as soon as we have finished making it. We also provide free returns.</p>
+                <a class="pricing__btn">Select</a>
+            </div>
+            <div class="pricing__box">
+                <h4 class="pricing__box-title">VALVE TROMBONE</h4>
+                <p class="pricing__price">$1200</p>
+                <p class="pricing__description">Lorem make sure you recieve your trombone as soon as we have finished making it. We also provide free returns.</p>
+                <a class="pricing__btn">Select</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container section">
+        <div class="footer__div">
+            <a class="footer__links" href="privacy.html">Privacy</a>
+            <a class="footer__links" href="terms.html">Terms</a>
+            <a class="footer__links" href="contact.html">Contact</a>
+        </div>
+        <p class="footer__para">Copyright 2016, Trombonesz</p>
+
+        <div class="disclaimer">
+            <p>~ Nikita Patil ~</p>
+            <p>*This Webpage is for course project purpose.</p>
+        </div>
+    </footer>
+</body>
+</html>
